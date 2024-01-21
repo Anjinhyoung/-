@@ -79,3 +79,12 @@
 
 <p>정답과의 절대오차 또는 상대오차가 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-msup><mjx-mn class="mjx-n"><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c30"></mjx-c></mjx-mn><mjx-script style="vertical-align: 0.393em;"><mjx-texatom size="s" texclass="ORD"><mjx-mo class="mjx-n"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n"><mjx-c class="mjx-c34"></mjx-c></mjx-mn></mjx-texatom></mjx-script></mjx-msup></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>10</mn><mrow data-mjx-texclass="ORD"><mo>−</mo><mn>4</mn></mrow></msup></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">\(10^{-4}\)</span></mjx-container> 이하이면 정답으로 인정한다.</p>
 
+
+
+
+# 이 문제를 풀고 난 후
+* 문제를 보자마자 딕셔너리를 사용해야 한다고 했는데 딕셔너리에서 밸류 값을 어떻게 꺼내오지 라는 생각을 했지만 우리에게는 구글링이 있다.
+* 구글링 덕분에 오랜만에 딕셔너리를 상기시켰다.
+* 다만 '전공평점은 전공과목별 (학점 × 과목평점)의 합을 학점의 총합으로 나눈 값이다.' 이 부분을 제대로 못봐서 전공 과목 개수를 학점의 총합 대신에 나눠서 애를 먹었다.
+* 오늘의 결론 문제를 보자
+* 근데 이 문제 다들 리스트로 많이 풀었더라 왜 난 보자마다 딕셔너리가 떠올랐을까?
