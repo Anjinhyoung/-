@@ -1,6 +1,6 @@
-a = input()
-b = ['c=','c-','dz=','z=','d-','lj','nj','s=']
-for i in b:
-    if i in a:
-        a = a.replace(i,'a')
-print(len(a))
+a = ['dz=','z=','c=','c-','s=','d-','lj','nj']
+b = input()
+for i in a:
+    if i in b:
+        b = b.replace(i,"a")
+print(len(b))
