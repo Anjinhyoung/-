@@ -28,3 +28,23 @@
 
  <p>첫째 줄에 그룹 단어의 개수를 출력한다.</p>
 
+
+# 이 문제플 풀고 난 점
+* 맨 처음 코드를 작성 할 때
+* ```python
+  count = 0
+  for _ in range(int(input())):
+      a = input()
+      t = True
+      for i in range(len(a)):
+          if a[i] != a[i + 1]:
+              if a[i] in a[i + 2:]:
+                  t = False
+      if t:
+          count += 1
+  print(count)
+  ```
+* 이렇게 적었을 때는 작동이 불가능 했다 왜냐? 만약에 'new'라는 글자를 치고 마지막 w 부분은 누구랑 비교하냐? ㅋㅋㅋ 이래서 작동이 하지 않았었다.
+* for 문에 안에 있는 if를 작동 시킬려면 ** len(a)-1 ** 을 해야 작동할 수 있다.
+* 그리고 두 번 째 if 문은 값을 비교하는 게 아니라 True, False로 비교하는 거라 값이 꼭 없어도 괜찮다
+* 이 문제 진짜 좋은 듯 
