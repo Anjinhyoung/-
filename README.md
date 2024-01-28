@@ -17,3 +17,4 @@ for i in range(2, m + 1):
 
 print([i for i in range(2, n + 1) if a[i] == True])
 ```
+* 위 코드는 입력된 수 이하에 모든 소수를 찾는 코드이다.
