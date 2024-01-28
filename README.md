@@ -3,3 +3,19 @@
 ### 2024년 1월 기준으로는 1년 전에 했던 Baekjoon문제를 처음부터 다시 풀려고 하고 이 레포지토리에다가 기록할려고 한다.
 ### 아마 주 1회에서 2회 정도 할 예정이다. 자격증이랑 알바를 병행하고 내 기준 2024년 1월에서는 정보처리기사 획득 1순위이여가지고 시간을 많이 내지는 못한다.
 ### 잘 부탁드립니다.  ㅎ
+
+### 유용한 소스코드인 거 같아서 이 레포지토리 들어올 때 마다 볼려는 코드
+```python
+  def prime_list(n):
+    # 에라토스테네스의 체 초기화: n개 요소에 True 설정(소수로 간주)
+    sieve = [True] * n
+
+    m = int(n ** 0.5)
+    for i in range(2, m + 1):
+        if sieve[i] == True:           # i가 소수인 경우 
+            for j in range(i+i, n, i): # i이후 i의 배수들을 False 판정
+                sieve[j] = False
+
+    # 소수 목록 산출
+    return [i for i in range(2, n) if sieve[i] == True]
+```
