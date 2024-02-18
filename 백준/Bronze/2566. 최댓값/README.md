@@ -157,4 +157,5 @@
 
 ### 이 문제를 풀고 난 후
 
-[2566번](https://github.com/Anjinhyoung/Baekjoon/blob/main/%EB%B0%B1%EC%A4%80/Bronze/2738.%E2%80%85%ED%96%89%EB%A0%AC%E2%80%85%EB%8D%A7%EC%85%88/README.md)를 풀고나니깐 별로 어렵지 않게 풀 수 있었다. 
+* [2566번](https://github.com/Anjinhyoung/Baekjoon/blob/main/%EB%B0%B1%EC%A4%80/Bronze/2738.%E2%80%85%ED%96%89%EB%A0%AC%E2%80%85%EB%8D%A7%EC%85%88/README.md)를 풀고나니깐 별로 어렵지 않게 풀 수 있었다. 
+* 2차원 리스트 처음엔 겁좀 먹었지만 조금씩 괜찮아지는 중
