@@ -32,5 +32,5 @@
 * 그래서 생각한 게 extend() + for문을 이용하는 거라고 생각했었는데... 당연히 실패했다.
 * 하지만 append() + for()문을 이용하니깐 성공했다.
 * 이 문제에서 extend()랑 append()에 차이점을 제대로 알 수 있었다.
-  * # list.append(x)는 리스트 끝에 x 1개를 그대로 넣습니다.
-  * # list.extend(iterable)는 리스트 끝에 가장 바깥쪽 iterable의 모든 항목을 넣습니다.
+  * list.append(x)는 리스트 끝에 x 1개를 그대로 넣습니다.
+  * list.extend(iterable)는 리스트 끝에 가장 바깥쪽 iterable의 모든 항목을 넣습니다.
